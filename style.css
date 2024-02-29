@@ -51,6 +51,8 @@ img{
 
 .info-canal{
     display: flex;
+    padding: 12px;
+    gap: 12px;
 }
 
 .imagem-do-canal{
