@@ -49,6 +49,10 @@ img{
     object-fit: cover;
 }
 
+.thumbnail{
+    border-radius: 5px;
+}
+
 .info-canal{
     display: flex;
     padding: 12px;
