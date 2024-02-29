@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 header {
     display: flex;
     gap: 24px;
@@ -31,4 +37,38 @@ nav button:hover,
 .active{
     background-color: #000;
     color: #fff;
+}
+
+main{
+    padding: 0 12px;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.info-canal{
+    display: flex;
+}
+
+.imagem-do-canal{
+    width: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.title-canal-info{
+    display: grid;
+}
+
+.title-canal-info h6{
+   font-size: 12px;
+   font-weight: 300;
+}
+
+.title-canal-info p{
+    font-size: 11px;
+    opacity: 0.7;
 }
